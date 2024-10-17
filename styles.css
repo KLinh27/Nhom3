@@ -540,7 +540,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--Light-pink);
 }
 
 .footer__content h4 {
@@ -565,7 +565,7 @@ nav {
     padding:  4px;
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: Light-pink;
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -594,7 +594,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: var(--white);
+  background-color: var(--Light-pink);
   border-radius: 20px;
 }
 
@@ -612,7 +612,7 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--white);
+  color: var(--Light-pink);
   background-color: var(--Light-pink);
   border-radius: 15px;
   cursor: pointer;
@@ -620,35 +620,7 @@ nav {
 
 .footer__bar {
   padding-block: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.footer__logo h4 a {
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: var(--header-font);
-  color: var(--white);
-}
-
-.footer__logo p {
-  margin-top: 5px;
-  font-size: 0.8rem;
-  color: var(--white);
-}
-
-.footer__nav {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.footer__link a {
-  font-weight: 500;
-  color: var(--white);
+pink);
   white-space: nowrap;
 }
 
