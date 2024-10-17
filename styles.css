@@ -3,7 +3,7 @@
 :root {
 Light-pink: #FFB6C1;
   --text-dark: #121212;
-  --text-light: #FFE4E1;
+  --text-light: # DB7093;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -30,7 +30,7 @@ Light-pink: #FFB6C1;
 }
 
 .section__subheader {
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .btn {
