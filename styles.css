@@ -3,7 +3,7 @@
 :root {
 Light-pink: #FFB6C1;
   --text-dark: #18181b;
-  --text-light: #F56BD9;
+  --text-light: #121212;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -36,7 +36,7 @@ Light-pink: #FFB6C1;
 .btn {
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  color: var(--white);
+  color: var(--Light-pink);
   background-color: var(--Light-pink);
   border-radius: 5rem;
   cursor: pointer;
@@ -113,7 +113,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--white);
+  color: var(--Light-pink);
   transition: 0.3s;
 }
 
@@ -182,7 +182,7 @@ nav {
   display: flex;
   align-items: center;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--white);
+  border: 1px solid var(--Light-pink);
   border-radius: 5rem;
 }
 
@@ -191,12 +191,12 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--white);
+  color: var(--Light-pink);
   background-color: transparent;
 }
 
 .header__container input::placeholder {
-  color: var(--white);
+  color: var(--Light-pink);
 }
 
 .header__container button {
@@ -204,7 +204,7 @@ nav {
   font-size: 1.25rem;
   outline: none;
   border: none;
-  color: var(--white);
+  color: var(--Light-pink);
   background-color: var(--Light-pink);
   border-radius: 100%;
   cursor: pointer;
