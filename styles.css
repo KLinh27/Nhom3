@@ -2,8 +2,8 @@
 
 :root {
 Light-pink: #FFB6C1;
-  --text-dark: #18181b;
-  --text-light: #121212;
+  --text-dark: #121212;
+  --text-light: #FFE4E1;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -30,7 +30,7 @@ Light-pink: #FFB6C1;
 }
 
 .section__subheader {
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .btn {
@@ -94,7 +94,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--light-pinkpink);
   display: flex;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--light-pink);
 }
 
 .nav__actions {
@@ -155,7 +155,7 @@ nav {
 
 .header__container {
   text-align: center;
-  color: var(--white);
+  color: var(--light-pink);
 }
 
 .header__container h1 {
