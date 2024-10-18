@@ -26,7 +26,7 @@ Light-pink: #FFB6C1;
   font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .section__subheader {
@@ -37,7 +37,7 @@ Light-pink: #FFB6C1;
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--Light-pink);
+  background-color: var(--white);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
