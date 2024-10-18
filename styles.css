@@ -26,7 +26,7 @@ Light-pink: #FFB6C1;
   font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .section__subheader {
@@ -44,7 +44,7 @@ Light-pink: #FFB6C1;
 }
 
 .btn:hover {
-  background-color: var(--text-dark);
+  background-color: var(--light-pinkpink);
 }
 
 img {
@@ -92,9 +92,9 @@ nav {
 
 .nav__logo a {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--light-pinkpink);
   display: flex;
 }
 
@@ -125,7 +125,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--white);
+  background-color: var(--text-dark);
   transition: 0.3s;
 }
 
