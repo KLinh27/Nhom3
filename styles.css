@@ -648,7 +648,7 @@ nav {
 
 .footer__link a {
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--white);
   white-space: nowrap;
 }
 
