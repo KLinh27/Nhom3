@@ -30,7 +30,7 @@ Light-pink: #FFB6C1;
 }
 
 .section__subheader {
-  color: var(--text-dark);
+  color: var(--text-light);
 }
 
 .btn {
