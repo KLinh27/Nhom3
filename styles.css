@@ -37,14 +37,14 @@ Light-pink: #FFB6C1;
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--Light-pink);
+  background-color: var(--Text-dark);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .btn:hover {
-  background-color: var(--light-pinkpink);
+  background-color: var(--light-pink);
 }
 
 img {
@@ -94,7 +94,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color: var(--light-pinkpink);
+  color: var(--light-pink);
   display: flex;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .nav__actions {
