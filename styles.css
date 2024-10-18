@@ -30,21 +30,21 @@ Light-pink: #FFB6C1;
 }
 
 .section__subheader {
-  color: var(--text-dark);
+  color: var(--text-);
 }
 
 .btn {
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--text-dark);
+  background-color: var(--Light-pink);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .btn:hover {
-  background-color: var(--Light-pink);
+  background-color: var(--text-dark);
 }
 
 img {
@@ -66,7 +66,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(
+  background-image: RGBA(
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
