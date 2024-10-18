@@ -47,7 +47,7 @@ var swiper = new Swiper(".swiper", {
   },
 });
 
-var swiper = new Swiper(".craft__image_container", {
+var swiper = new Swiper(".Fwee pudding pot.jpg_container", {
   spaceBetween: 20,
     loop: true,
     centeredSlides: true,
