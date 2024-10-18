@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #2f2f2f;
+  --pink-red: #Ffc0cb;
   --text-dark: #18181b;
   --text-light: #71717a;
   --white: #ffffff;
@@ -37,7 +37,7 @@
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--pink-red);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -205,7 +205,7 @@ nav {
   outline: none;
   border: none;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--pink-red);
   border-radius: 100%;
   cursor: pointer;
 }
@@ -379,7 +379,7 @@ nav {
   padding: 0 7px;
   font-size: 1.75rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--pink-red);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   opacity: 0;
@@ -532,7 +532,7 @@ nav {
 }
 
 .footer {
-  background-color: var(--primary-color);
+  background-color: var(--pink-red);
 }
 
 .footer__container {
@@ -613,7 +613,7 @@ nav {
   border: none;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--pink-red);
   border-radius: 15px;
   cursor: pointer;
 }
@@ -726,7 +726,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1rem;
-    background-color: #000000;
+    background-color: #FF66E6;
     z-index: 99;
   }
 
