@@ -44,7 +44,7 @@ Light-pink: #FFB6C1;
 }
 
 .btn:hover {
-  background-color: var(--text-light);
+  background-color: var(--Light-pink);
 }
 
 img {
