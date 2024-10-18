@@ -5,6 +5,10 @@ Light-pink: #FFB6C1;
   --text-dark: #18181b;
   --text-light: #F56BD9;
   --white: #ffffff;
+  --Ivory1: #FFFFF0;
+  --SaddleBrown: #8B4513;
+  --SpringGreen1: #00FF7F;
+  --DarkSlateGray1: #97FFFF;
   --max-width: 1200px;
   --header-font: "Lora", serif;
 }
@@ -44,7 +48,7 @@ Light-pink: #FFB6C1;
 }
 
 .btn:hover {
-  background-color: var(--text-dark);
+  background-color: var(--DarkSlateGray1);
 }
 
 img {
@@ -94,7 +98,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--SpringGreen1);
   display: flex;
 }
 
@@ -113,7 +117,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--white);
+  color: var(--Ivory1);
   transition: 0.3s;
 }
 
@@ -125,7 +129,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--white);
+  background-color: var(--SaddleBrown);
   transition: 0.3s;
 }
 
@@ -136,7 +140,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--White);
+  color: var(--SpringGreen1);
 }
 
 .nav__actions {
@@ -182,7 +186,7 @@ nav {
   display: flex;
   align-items: center;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--whiteLight-pink);
+  border: 1px solid var(--Light-pink);
   border-radius: 5rem;
 }
 
