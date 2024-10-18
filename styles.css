@@ -36,8 +36,8 @@ Light-pink: #FFB6C1;
 .btn {
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  color: var(--white);
-  background-color: var(--Light-pink);
+  color: var(--text-dark);
+  background-color: var(--Whie);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -66,7 +66,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(
+  background-image: (
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
@@ -94,7 +94,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--text-dark);
   display: flex;
 }
 
@@ -125,7 +125,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--white);
+  background-color: var(--Light-pink);
   transition: 0.3s;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--white);
+  color: var(--Light-pink);
 }
 
 .nav__actions {
@@ -149,13 +149,13 @@ nav {
 
 .nav__actions span {
   font-size: 1.2rem;
-  color: var(--white);
+  color: var(--Light-pink);
   cursor: pointer;
 }
 
 .header__container {
   text-align: center;
-  color: var(--white);
+  color: var(--Light-pink);
 }
 
 .header__container h1 {
@@ -182,7 +182,7 @@ nav {
   display: flex;
   align-items: center;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--white);
+  border: 1px solid var(--Light-pink);
   border-radius: 5rem;
 }
 
@@ -216,7 +216,7 @@ nav {
   font-size: 3rem;
   color: var(--white);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--white);
+  border: 1px solid var(--Light-pink);
   border-radius: 100%;
 }
 
