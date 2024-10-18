@@ -1,9 +1,9 @@
- @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
 Light-pink: #FFB6C1;
-  --text-dark: #121212;
-  --text-light: #DB7093;
+  --text-dark: #18181b;
+  --text-light: #F56BD9;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -30,7 +30,7 @@ Light-pink: #FFB6C1;
 }
 
 .section__subheader {
-  color: var(--text-);
+  color: var(--text-light);
 }
 
 .btn {
@@ -66,12 +66,12 @@ body {
 }
 
 header {
-  background-image: RGBA(
+  background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-    url("assets/blush.jpg");
+    url("assets/home.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--light-pink);
+  color: var(--white);
   display: flex;
 }
 
@@ -113,7 +113,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--text-dark);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .nav__actions {
@@ -149,13 +149,13 @@ nav {
 
 .nav__actions span {
   font-size: 1.2rem;
-  color: var(--light-pink);
+  color: var(--white);
   cursor: pointer;
 }
 
 .header__container {
   text-align: center;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .header__container h1 {
@@ -182,7 +182,7 @@ nav {
   display: flex;
   align-items: center;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--Light-pink);
+  border: 1px solid var(--white);
   border-radius: 5rem;
 }
 
@@ -191,12 +191,12 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--Light-pink);
+  color: var(--white);
   background-color: transparent;
 }
 
 .header__container input::placeholder {
-  color: var(--Light-pink);
+  color: var(--white);
 }
 
 .header__container button {
@@ -204,7 +204,7 @@ nav {
   font-size: 1.25rem;
   outline: none;
   border: none;
-  color: var(--Light-pink);
+  color: var(--white);
   background-color: var(--Light-pink);
   border-radius: 100%;
   cursor: pointer;
@@ -214,9 +214,9 @@ nav {
   display: inline-block;
   padding: 0 12px;
   font-size: 3rem;
-  color: var(--light-pink);
+  color: var(--white);
   backdrop-filter: blur(10px);
-  border: 1px solid var(--light-pink);
+  border: 1px solid var(--white);
   border-radius: 100%;
 }
 
@@ -263,7 +263,7 @@ nav {
 }
 
 .choose__card p {
-  color: var(--light-pink);
+  color: var(--text-light);
 }
 
 .choose__image img {
@@ -540,7 +540,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--Light-pink);
+  border-bottom: 1px solid var(--white);
 }
 
 .footer__content h4 {
@@ -548,11 +548,11 @@ nav {
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
-  color: var(--light-pink);
+  color: var(--white);
 }
 
 .footer__content p {
-  color: var(--light-pink);
+  color: var(--white);
 }
 
 .socialIcons{
@@ -565,7 +565,7 @@ nav {
     padding:  4px;
     width: 40px;
     height: 40px;
-    background-color: Light-pink;
+    background-color: white;
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -594,7 +594,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: var(--Light-pink);
+  background-color: var(--white);
   border-radius: 20px;
 }
 
@@ -612,7 +612,7 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--Light-pink);
+  color: var(--white);
   background-color: var(--Light-pink);
   border-radius: 15px;
   cursor: pointer;
@@ -620,7 +620,35 @@ nav {
 
 .footer__bar {
   padding-block: 2rem;
-pink);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__logo h4 a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--header-font);
+  color: var(--white);
+}
+
+.footer__logo p {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+.footer__nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer__link a {
+  font-weight: 500;
+  color: var(--white);
   white-space: nowrap;
 }
 
@@ -698,7 +726,7 @@ pink);
     position: fixed;
     width: 100%;
     padding: 1rem;
-    background-color: #DB7093;
+    background-color: #000000;
     z-index: 99;
   }
 
