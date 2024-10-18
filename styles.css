@@ -540,7 +540,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--text-dark);
 }
 
 .footer__content h4 {
@@ -548,11 +548,11 @@ nav {
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .footer__content p {
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .socialIcons{
@@ -565,7 +565,7 @@ nav {
     padding:  4px;
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: light-pink;
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -578,7 +578,7 @@ nav {
 }
 /* Hover affect on social media icon */
 .socialIcons a:hover{
-    background-color: #DB7093;
+    background-color: FFB6C1;
     transition: 0.5s;
 }
 .socialIcons a:hover i{
@@ -592,7 +592,7 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--text-dark); /* Chỉnh chữ trong input thành màu đen */
+  color: var(--text-dark); 
 }
 
 .footer__form button {
@@ -601,7 +601,7 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--text-dark); /* Chỉnh chữ trong button thành màu đen */
+  color: var(--text-dark);
   background-color: var(--Light-pink);
   border-radius: 15px;
   cursor: pointer;
@@ -612,40 +612,13 @@ nav {
   padding: 0 1rem;
   outline: none;
   border: none;
-  font-size: 1rem;
-}
-
-.footer__form button {
-  padding: 1rem 0.5rem;
-  width: 50%;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  color: var(--white);
-  background-color: var(--Light-pink);
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.footer__bar {
-  padding-block: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.footer__logo h4 a {
-  font-size: 1.5rem;
-  font-weight: 600;
-  font-family: var(--header-font);
-  color: var(--white);
+  fdark);
 }
 
 .footer__logo p {
   margin-top: 5px;
   font-size: 0.8rem;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .footer__nav {
@@ -657,7 +630,7 @@ nav {
 
 .footer__link a {
   font-weight: 500;
-  color: var(--white);
+  color: var(--text-dark);
   white-space: nowrap;
 }
 
@@ -735,7 +708,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1rem;
-    background-color: #000000;
+    background-color: #FFB6C1;
     z-index: 99;
   }
 
