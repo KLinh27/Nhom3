@@ -196,7 +196,7 @@ nav {
 }
 
 .header__container input::placeholder {
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .header__container button {
