@@ -94,7 +94,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--Light-pink);
+  color: var(--white);
   display: flex;
 }
 
@@ -113,7 +113,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--Light-pink);
+  color: var(--white);
   transition: 0.3s;
 }
 
@@ -125,7 +125,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--Light-pink);
+  background-color: var(--white);
   transition: 0.3s;
 }
 
