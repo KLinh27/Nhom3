@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-Light-pink: #FFB6C1;
+  --primary-color: #2f2f2f;
   --text-dark: #18181b;
-  --text-light: #F56BD9;
+  --text-light: #71717a;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Lora", serif;
@@ -26,7 +26,7 @@ Light-pink: #FFB6C1;
   font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .section__subheader {
@@ -37,14 +37,14 @@ Light-pink: #FFB6C1;
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--Text-dark);
+  background-color: var(--primary-color);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .btn:hover {
-  background-color: var(--light-pink);
+  background-color: var(--text-dark);
 }
 
 img {
@@ -71,7 +71,7 @@ header {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-    url("assets/blush.jpg");
+    url("assets/home.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,9 +92,9 @@ nav {
 
 .nav__logo a {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: var(--header-font);
-  color: var(--light-pink);
+  color: var(--white);
   display: flex;
 }
 
@@ -125,7 +125,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--text-dark);
+  background-color: var(--white);
   transition: 0.3s;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .nav__actions {
@@ -196,7 +196,7 @@ nav {
 }
 
 .header__container input::placeholder {
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .header__container button {
@@ -205,7 +205,7 @@ nav {
   outline: none;
   border: none;
   color: var(--white);
-  background-color: var(--Light-pink);
+  background-color: var(--primary-color);
   border-radius: 100%;
   cursor: pointer;
 }
@@ -250,7 +250,7 @@ nav {
   margin-bottom: 0.5rem;
   padding: 5px 10px;
   font-size: 1.25rem;
-  background-color: #FFB6C1;
+  background-color: #cad8d8;
   border-radius: 100%;
 }
 
@@ -333,7 +333,7 @@ nav {
   left: 0;
   width: 100%;
   height: 50%;
-  background-color: #FFB6C1;
+  background-color: #ebf1f1;
   border-radius: 15px;
   transition: 0.3s;
   z-index: -1;
@@ -379,7 +379,7 @@ nav {
   padding: 0 7px;
   font-size: 1.75rem;
   color: var(--white);
-  background-color: var(--Light-pink);
+  background-color: var(--primary-color);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   opacity: 0;
@@ -532,7 +532,7 @@ nav {
 }
 
 .footer {
-  background-color: var(--Light-pink);
+  background-color: var(--primary-color);
 }
 
 .footer__container {
@@ -540,7 +540,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--text-dark);
+  border-bottom: 1px solid var(--white);
 }
 
 .footer__content h4 {
@@ -548,11 +548,11 @@ nav {
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .footer__content p {
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .socialIcons{
@@ -565,7 +565,7 @@ nav {
     padding:  4px;
     width: 40px;
     height: 40px;
-    background-color: light-pink;
+    background-color: white;
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -578,12 +578,24 @@ nav {
 }
 /* Hover affect on social media icon */
 .socialIcons a:hover{
-    background-color: FFB6C1;
+    background-color: #111;
     transition: 0.5s;
 }
 .socialIcons a:hover i{
     color: white;
     transition: 0.5s;
+}
+
+.footer__form form {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--white);
+  border-radius: 20px;
 }
 
 .footer__form input {
@@ -592,7 +604,6 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--text-dark); 
 }
 
 .footer__form button {
@@ -601,24 +612,31 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--text-dark);
-  background-color: var(--Light-pink);
+  color: var(--white);
+  background-color: var(--primary-color);
   border-radius: 15px;
   cursor: pointer;
 }
 
-.footer__form input {
-  width: 100%;
-  padding: 0 1rem;
-  outline: none;
-  border: none;
-  fdark);
+.footer__bar {
+  padding-block: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer__logo h4 a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--header-font);
+  color: var(--white);
 }
 
 .footer__logo p {
   margin-top: 5px;
   font-size: 0.8rem;
-  color: var(--text-dark);
+  color: var(--white);
 }
 
 .footer__nav {
@@ -630,7 +648,7 @@ nav {
 
 .footer__link a {
   font-weight: 500;
-  color: var(--text-dark);
+  color: var(--white);
   white-space: nowrap;
 }
 
@@ -708,7 +726,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1rem;
-    background-color: #FFB6C1;
+    background-color: #000000;
     z-index: 99;
   }
 
