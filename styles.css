@@ -5,10 +5,10 @@ Light-pink: #FFB6C1;
   --text-dark: #18181b;
   --text-light: #F56BD9;
   --white: #ffffff;
-  --Ivory1: #FFFFF0;
-  --SaddleBrown: #8B4513;
+  --IndianRed4: #8B3A3A;
+  --Purple: ##800080;
   --SpringGreen1: #00FF7F;
-  --DarkSlateGray1: #97FFFF;
+  --DarkGoldenrod4: #8B658B;
   --max-width: 1200px;
   --header-font: "Lora", serif;
 }
@@ -48,7 +48,7 @@ Light-pink: #FFB6C1;
 }
 
 .btn:hover {
-  background-color: var(--DarkSlateGray1);
+  background-color: var(--DarkGoldenrod4);
 }
 
 img {
@@ -98,7 +98,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--SpringGreen1);
+  color: var(--White);
   display: flex;
 }
 
@@ -129,7 +129,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--SaddleBrown);
+  background-color: var(--DarkGoldenrod4);
   transition: 0.3s;
 }
 
@@ -140,7 +140,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--SpringGreen1);
+  color: var(--DarkGoldenrod4);
 }
 
 .nav__actions {
@@ -382,7 +382,7 @@ nav {
   transform: translate(-50%, 50%);
   padding: 0 7px;
   font-size: 1.75rem;
-  color: var(--white);
+  color: var(--SpringGreen1);
   background-color: var(--Light-pink);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -544,7 +544,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--IndianRed4);
 }
 
 .footer__content h4 {
@@ -552,11 +552,11 @@ nav {
   font-size: 2rem;
   font-weight: 600;
   line-height: 2.5rem;
-  color: var(--white);
+  color: var(--SpringGreen1);
 }
 
 .footer__content p {
-  color: var(--white);
+  color: var(--IndianRed4);
 }
 
 .socialIcons{
@@ -569,7 +569,7 @@ nav {
     padding:  4px;
     width: 40px;
     height: 40px;
-    background-color: white;
+    background-color: Purple;
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -577,7 +577,7 @@ nav {
 }
 .socialIcons a i{
     font-size: 25px;
-    color: black;
+    color: Purple;
     opacity: 0,9;
 }
 /* Hover affect on social media icon */
@@ -586,7 +586,7 @@ nav {
     transition: 0.5s;
 }
 .socialIcons a:hover i{
-    color: white;
+    color: Purple;
     transition: 0.5s;
 }
 
