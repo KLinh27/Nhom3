@@ -594,7 +594,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: var(--white);
+  background-color: var(--text-dark);
   border-radius: 20px;
 }
 
@@ -612,7 +612,7 @@ nav {
   outline: none;
   border: none;
   font-size: 1rem;
-  color: var(--white);
+  color: var(--text-dark);
   background-color: var(--Light-pink);
   border-radius: 15px;
   cursor: pointer;
@@ -630,13 +630,13 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   font-family: var(--header-font);
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .footer__logo p {
   margin-top: 5px;
   font-size: 0.8rem;
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .footer__nav {
