@@ -37,7 +37,7 @@ Light-pink: #FFB6C1;
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--white);
+  background-color: var(--text-dark);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -71,7 +71,7 @@ header {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-    url("assets/Mẫu ảnh.jpg");
+    url("assets/blush.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@ nav {
 
 .nav__actions span {
   font-size: 1.2rem;
-  color: var(--light-pinkpink);
+  color: var(--light-pink);
   cursor: pointer;
 }
 
