@@ -5,10 +5,6 @@ Light-pink: #FFB6C1;
   --text-dark: #18181b;
   --text-light: #F56BD9;
   --white: #ffffff;
-  --IndianRed4: #8B3A3A;
-  --Purple: ##800080;
-  --SpringGreen1: #00FF7F;
-  --DarkGoldenrod4: #8B658B;
   --max-width: 1200px;
   --header-font: "Lora", serif;
 }
@@ -48,7 +44,7 @@ Light-pink: #FFB6C1;
 }
 
 .btn:hover {
-  background-color: var(--DarkGoldenrod4);
+  background-color: var(--Light-pink);
 }
 
 img {
@@ -117,7 +113,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--Ivory1);
+  color: var(--Light-pink);
   transition: 0.3s;
 }
 
@@ -129,7 +125,7 @@ nav {
   transform: translateX(-50%);
   height: 2px;
   width: 0;
-  background-color: var(--DarkGoldenrod4);
+  background-color: var(--Light-pink);
   transition: 0.3s;
 }
 
@@ -140,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--DarkGoldenrod4);
+  color: var(--Light-pink);
 }
 
 .nav__actions {
@@ -382,7 +378,7 @@ nav {
   transform: translate(-50%, 50%);
   padding: 0 7px;
   font-size: 1.75rem;
-  color: var(--SpringGreen1);
+  color: var(--Text-darkdark);
   background-color: var(--Light-pink);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
@@ -544,32 +540,7 @@ nav {
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
   align-items: center;
-  border-bottom: 1px solid var(--IndianRed4);
-}
-
-.footer__content h4 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 2.5rem;
-  color: var(--SpringGreen1);
-}
-
-.footer__content p {
-  color: var(--IndianRed4);
-}
-
-.socialIcons{
-    display: flex;
-    justify-content: end;
-    margin-bottom: 10px;
-}
-.socialIcons a{
-    text-decoration: none;
-    padding:  4px;
-    width: 40px;
-    height: 40px;
-    background-color: Purple;
+  border-bottom: 1px solid var(--Text-dark);
     margin: 10px;
     border-radius: 50%;
     text-align: center;
@@ -577,7 +548,7 @@ nav {
 }
 .socialIcons a i{
     font-size: 25px;
-    color: Purple;
+    color: Light-pink;
     opacity: 0,9;
 }
 /* Hover affect on social media icon */
@@ -586,7 +557,7 @@ nav {
     transition: 0.5s;
 }
 .socialIcons a:hover i{
-    color: Purple;
+    color: Light-pink;
     transition: 0.5s;
 }
 
@@ -598,7 +569,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 1rem;
-  background-color: var(--text-dark);
+  background-color: var(--text-light);
   border-radius: 20px;
 }
 
@@ -652,7 +623,7 @@ nav {
 
 .footer__link a {
   font-weight: 500;
-  color: var(--white);
+  color: var(-Light-pink);
   white-space: nowrap;
 }
 
