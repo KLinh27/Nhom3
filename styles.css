@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
 Light-pink: #FFB6C1;
@@ -36,7 +36,7 @@ Light-pink: #FFB6C1;
 .btn {
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  color: var(--Light-pink);
+  color: var(--white);
   background-color: var(--Light-pink);
   border-radius: 5rem;
   cursor: pointer;
@@ -71,7 +71,7 @@ header {
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.2)
     ),
-    url("assets/Mẫu ảnh 4.jpg");
+    url("assets/Mẫu ảnh.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
