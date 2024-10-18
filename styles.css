@@ -26,7 +26,7 @@ Light-pink: #FFB6C1;
   font-size: 2.5rem;
   font-weight: 700;
   font-family: var(--header-font);
-  color: var(--text-light);
+  color: var(--text-dark);
 }
 
 .section__subheader {
@@ -113,7 +113,7 @@ nav {
 .link a {
   position: relative;
   padding: 10px 0;
-  color: var(--Light-pink);
+  color: var(--text-dark);
   transition: 0.3s;
 }
 
@@ -136,7 +136,7 @@ nav {
 .nav__menu__btn {
   display: none;
   font-size: 1.5rem;
-  color: var(--light-pink);
+  color: var(--text-dark);
 }
 
 .nav__actions {
@@ -155,7 +155,7 @@ nav {
 
 .header__container {
   text-align: center;
-  color: var(--light-pink);
+  color: var(--text-dark);
 }
 
 .header__container h1 {
