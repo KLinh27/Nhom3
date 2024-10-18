@@ -37,7 +37,7 @@ Light-pink: #FFB6C1;
   padding: 0.75rem 2rem;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--Light-pink);
   border-radius: 5rem;
   cursor: pointer;
   transition: 0.3s;
@@ -205,7 +205,7 @@ nav {
   outline: none;
   border: none;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--Light-pink);
   border-radius: 100%;
   cursor: pointer;
 }
@@ -379,7 +379,7 @@ nav {
   padding: 0 7px;
   font-size: 1.75rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--Light-pink);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   opacity: 0;
@@ -532,7 +532,7 @@ nav {
 }
 
 .footer {
-  background-color: var(--primary-color);
+  background-color: var(--Light-pink);
 }
 
 .footer__container {
@@ -613,7 +613,7 @@ nav {
   border: none;
   font-size: 1rem;
   color: var(--white);
-  background-color: var(--primary-color);
+  background-color: var(--Light-pink);
   border-radius: 15px;
   cursor: pointer;
 }
